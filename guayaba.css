@@ -1,0 +1,76 @@
+body{
+    display: flex;
+margin: 0;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #17181c;
+color: white;
+}
+
+
+
+button{
+border: none;
+padding: 5px;
+border-radius: 6px;
+}
+
+.boton2{
+border: none;
+background-color: transparent;
+
+}
+
+
+
+.header{
+display: flex;
+}
+
+.punto{
+    width: 12px;
+    height: 12px;
+border-radius: 50%;
+background-color: white;
+
+margin: 16px 0px;
+margin-right: 16px;
+}
+
+.body{
+background-color: rgb(73, 72, 70);
+padding: 2px;
+border-radius: 10px;
+max-width: 300px;
+margin-left: 80px;
+
+}
+
+button:hover{
+
+background-color: rgb(184, 184, 184);
+
+}
+
+.boton2::before{
+content: "";
+display: block;
+background-color: white;
+width: 5px;
+height: 180px;
+position: absolute;
+margin-left: 51px;
+margin-top: 18px;
+border-radius: 5px;
+}
+
+item{
+position: relative;
+padding-top: 20px;
+}
+
+.boton3{
+
+    background-color: rgba(250, 235, 215, 0);
+}
