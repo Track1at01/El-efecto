@@ -1,12 +1,5 @@
-
-function saludo(Nombre){
-alert("hola " + Nombre)
+function toggleItem(element){
+element.classList.toggle("toggled")
 }
 
-saludo("Nombre")
-saludo("Juan")
-saludo("Enano")
-saludo("loquilla")
-saludo("tetas")
-saludo("teturras")
-saludo("mamalungas")
+
